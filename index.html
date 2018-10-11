@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Minesweeper By Eden</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<h1 align = "center">Minesweeper</h1> 
+
+<body onload="init()">
+  
+<div class="button" align="center">
+    <button onclick="buildBoard(4, 2)">Beginner</button>
+    <button onclick="buildBoard(6, 5)">Medium</button>
+    <button onclick="buildBoard(8, 15)">Expert</button>
+</div>
+
+<h2>
+    <span id="player-time" > </span>
+    <span id="panel-button" ></span>
+    <span id="flag-count"></span>
+</h2>
+</div>
+
+  <table>
+    <tbody class="board" ></tbody>
+  </table>
+
+  <div class="button-retry" align="center">
+      <button onclick="init()">Retry</button>
+  </div>
+
+  <div > <h2><span id="player-time" > </span></div>
+  
+
+  <div align="center">  <table class="best-time">
+        <tbody>
+        <tr>
+          <td>The best time for begginer difficulty: <span id="best-begginer-time"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>The best time for medium difficulty: <span id="best-medium-time"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>The best time for expert difficulty: <span id="best-expert-time"></span>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    
+  <script src="js/game.js"></script>
+</body>
+
+</html>

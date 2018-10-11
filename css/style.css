@@ -1,0 +1,76 @@
+body{
+    color: whitesmoke;
+    background-image: url("../img/backgroundImg.jpg");
+    background-size: cover;
+}
+h1{
+    color: black;
+}
+
+
+.cell {
+width: 50px; 
+height: 50px;
+text-align: center; 
+background-color:brown; 
+cursor: pointer;
+}
+
+.board {
+table-layout: center; 
+margin: auto;
+color: white;
+}
+
+table{
+    margin: auto;
+    color: rgb(206, 176, 9);
+}
+
+img {
+width: 30px; 
+height: 30px; 
+display: none; 
+margin: auto;
+}
+
+.not-empty {
+background-color: rgb(63, 2, 2);
+}
+
+.empty {
+background-color: rgb(63, 2, 2);
+}
+
+.mine {
+background-color: rgb(63, 2, 2);
+}
+
+.flag-img {
+background-color: rgb(63, 2, 2);
+display: block}
+
+.button{
+display: block;
+}
+
+.button-retry{
+display: none;
+padding: 10px;
+
+}
+
+h2{
+display: none; 
+text-align: center;
+}
+
+.elCell{
+opacity: 0.5;
+}
+
+
+.flag img {
+    display: block
+}
+
